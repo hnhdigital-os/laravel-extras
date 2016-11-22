@@ -31,7 +31,6 @@ Enable additional blade directions by editing config/app.php.
 In a blade template:
 
 ```php
-<?php
 @call('test()')
 @csrf
 @raw(echo 'This is a raw command')
