@@ -10,7 +10,7 @@ Provides extras for Laravel 5.
 
 Install via composer:
 
-`composer require-dev bluora/laravel-extras dev-master`
+`composer require bluora/laravel-extras dev-master`
 
 Add it to your config/app.php
 
