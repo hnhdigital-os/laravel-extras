@@ -16,7 +16,7 @@ Via composer:
 
 `$ composer require bluora/laravel-extras dev-master`
 
-Enable additional blade directions by editing config/app.php.
+Enable additional blade directives by editing config/app.php:
 
 ```php
     'providers' => [
