@@ -14,6 +14,17 @@ class BladeDirectiveServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        blade::directive('capturestart', function () {
+            return '<?php ob_start(); ?>';
+        });
+
+        blade::directive('capturestop', function ($name) {
+            $name = str_replace('$', '', $name);
+            $name = substr($name, 1, -1);
+
+            return '<?php $'.$name.' = ob_get_clean(); ?>';
+        });
+
         blade::directive('call', function ($call) {
             $call = substr($call, 1, -1);
 
