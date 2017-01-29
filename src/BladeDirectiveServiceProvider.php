@@ -38,6 +38,10 @@ class BladeDirectiveServiceProvider extends ServiceProvider
         blade::directive('raw', function ($raw) {
             return "<?php $raw; ?>";
         });
+
+        blade::directive('use', function ($use) {
+            return "<?php use $use; ?>";
+        });
     }
 
     /**
