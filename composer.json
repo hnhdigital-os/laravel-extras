@@ -1,12 +1,12 @@
 {
-    "name": "bluora/laravel-extras",
+    "name": "hnhdigital-os/laravel-extras",
     "description": "Provides a collection of extras for Laravel 5.",
     "keywords": ["laravel","blade","directives"],
     "license": "MIT",
     "authors": [
         {
             "name": "Rocco Howard",
-            "email": "rocco@bluora.com.au"
+            "email": "rocco@hnh.digital"
         }
     ],
     "require": {
